@@ -16,6 +16,6 @@ apt purge logrotate -y && \
 apt upgrade -y && \
 apt autoremove -y && \
 apt autoclean -y && \
-apt-get clean -y \
+apt-get clean -y && \
 rm -rf /var/lib/apt/lists/* && \
 cd /tmp && curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
