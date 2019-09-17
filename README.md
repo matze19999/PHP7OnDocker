@@ -3,7 +3,7 @@
 A usual PHP7 Docker Image with Apache2
 
 ## Base Image
-nimmis/apache <Latest>
+nimmis/apache:Latest
 
 ## Architecture
 amd32 / amd64
