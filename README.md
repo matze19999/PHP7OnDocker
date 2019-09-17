@@ -1,3 +1,3 @@
 # PHP7OnDocker
 
-A usual PHP7 Docker Image 
+A usual PHP7 Docker Image with Apache2
