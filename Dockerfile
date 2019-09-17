@@ -1,10 +1,15 @@
 FROM nimmis/apache
 
-MAINTAINER nimmis <kjell.havneskold@gmail.com>
+# Modifiziert von
+# Matthias Pröll <proell.matthias@gmail.com>
+# Staudigl-Druck GmbH & Co. KG
+# Letzte Anpassung: 2019/09/17
 
-# https://github.com/nimmis/docker-apache-php7/blob/master/Dockerfile
+# Labels
+LABEL vendor="Staudigl-Druck GmbH & Co. KG"
+LABEL maintainer="Matthias Pröll (proell.matthias@gmail.com)"
+LABEL release-date="2019-09-17"
 
-# disable interactive functions
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && \
